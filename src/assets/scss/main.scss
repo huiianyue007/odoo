@@ -1,0 +1,22 @@
+@import './_variables.scss';
+@import './_reset.scss';
+@import './base.scss';
+@import '~vue-tkui/src/sass/common.scss';
+@import '~vue-tkui/src/sass/all.scss';
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+  opacity: 0
+}
+
+
+
+
+
+
+
+
+
+
+
